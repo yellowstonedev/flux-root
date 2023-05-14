@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
 - actions-runner-system.yaml
 - cert-manager.yaml
-- joshsizer-josh-sizer-dev.yaml
+- joshsizer-flux-root.yaml
