@@ -2,12 +2,12 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: flux-joshsizer-root
+  name: joshsizer-flux-root
   namespace: flux-system
 spec:
   interval: 1m0s
   ref:
     branch: main
   secretRef:
-    name: flux-joshsizer-root
+    name: joshsizer-flux-root
   url: ssh://git@github.com/joshsizer/flux-root

@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
 - actions-runner-system.yaml
 - cert-manager.yaml
-- josh-sizer-dev.yaml
+- joshsizer-josh-sizer-dev.yaml
