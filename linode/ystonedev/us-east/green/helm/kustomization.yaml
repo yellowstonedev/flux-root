@@ -5,3 +5,4 @@ resources:
 - actions-runner-controller.yaml
 - bitnami.yaml
 - jetstack.yaml
+- ingress-nginx.yaml
